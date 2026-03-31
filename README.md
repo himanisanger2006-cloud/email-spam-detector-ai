@@ -110,53 +110,7 @@ Run the Python script:
 python main.py
 ```
 
-## 🔄 Project Flowchart
 
-```mermaid
-flowchart TD
-
-A[Start] --> B[Load Dataset (CSV)]
-B --> C[Data Preprocessing]
-
-C --> C1[Convert labels (ham/spam → 0/1)]
-C1 --> C2[Remove null values]
-C2 --> C3[Clean text (lowercase, remove URLs, numbers, punctuation)]
-
-C3 --> D[Train-Test Split]
-
-D --> E[TF-IDF Vectorization]
-E --> E1[Apply n-grams (1,3)]
-E1 --> E2[Transform text into numerical features]
-
-E2 --> F[Model Training]
-F --> F1[Train Logistic Regression]
-F --> F2[Train Naive Bayes]
-
-F1 --> G[Model Evaluation]
-F2 --> G
-
-G --> G1[Accuracy Score]
-G --> G2[Confusion Matrix]
-G --> G3[Classification Report]
-
-G3 --> H[User Input]
-
-H --> I[Clean Input Text]
-I --> J[Vectorize Input]
-
-J --> K[Predict using Model]
-
-K --> L{Check Spam Keywords?}
-L -->|Yes| M[Mark as SPAM 🚫]
-L -->|No| N[Use Model Prediction]
-
-M --> O[Display Result]
-N --> O
-
-O --> P{Continue?}
-P -->|Yes| H
-P -->|No| Q[End]
-```
 
 ---
 
