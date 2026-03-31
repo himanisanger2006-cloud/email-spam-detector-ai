@@ -4,6 +4,16 @@ A Machine Learning project that classifies emails as **Spam 🚫** or **Not Spam
 
 ---
 
+## 📖 Introduction
+
+With the rapid growth of digital communication, email has become one of the most widely used platforms for personal and professional interaction. However, this growth has also led to an increase in spam emails, which include unwanted advertisements, phishing attempts, and potentially harmful content. Detecting and filtering such emails is essential to ensure user safety and maintain productivity.
+
+This project focuses on building a Spam Email Classifier using Machine Learning and Natural Language Processing (NLP) techniques. The system analyzes the content of emails and classifies them as either spam or not spam based on learned patterns from a dataset.
+
+By using techniques like text preprocessing, TF-IDF vectorization, and classification models such as Logistic Regression and Naive Bayes, this project demonstrates an efficient and practical approach to spam detection. Additionally, a hybrid rule-based mechanism is incorporated to enhance prediction accuracy by identifying commonly used spam keywords.
+
+Overall, this project serves as a beginner-friendly yet powerful implementation of text classification and provides a strong foundation for understanding real-world applications of machine learning in cybersecurity and communication systems.
+
 ## 📌 Features
 
 - CSV-based dataset support (Kaggle format compatible)  
