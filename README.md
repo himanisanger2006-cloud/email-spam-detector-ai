@@ -195,6 +195,15 @@ Contributions are welcome!
 4. Submit a pull request  
 
 ---
+---
+
+## 📌 Conclusion
+
+This project demonstrates how Machine Learning and Natural Language Processing can be effectively used to detect spam emails. By applying text preprocessing, TF-IDF vectorization, and classification algorithms like Logistic Regression and Naive Bayes, the system is able to accurately distinguish between spam and legitimate messages.
+
+The addition of a hybrid rule-based approach further improves prediction reliability by capturing common spam patterns that models may sometimes miss. This makes the system more robust and practical for real-world usage.
+
+Overall, this project provides a strong foundation in text classification, model building, and deployment concepts. It also highlights the importance of combining statistical models with domain knowledge to achieve better results. With further improvements such as larger datasets, deep learning models, and deployment as a web application, this system can be extended into a fully functional spam detection tool.
 
 ## 📜 License
 
